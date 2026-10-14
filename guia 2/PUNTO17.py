@@ -12,6 +12,7 @@ for contacto in contactos:
         print(f"Nombre: {contacto['nombre']}")
         print(f"Telefono: {contacto['telefono']}")
         print(f"Email: {contacto['email']}")
+        break
     else:
         print("Contacto no encontrado.")
         break
